@@ -1,0 +1,47 @@
+<div class="secao ">
+    <h3 class="denuncias-titulo">Denúncias Atribuídas </h3>
+    <p class="agente-dados"> ({{agente.nome}}, {{agente.cpf}})</p>
+
+    {{#if denuncias.length}}
+    {{#each denuncias}}
+    <div class="card denuncias-card denunciasAtribuidas-card">
+        <div class="denuncias-card-infomacoes">
+            <div>
+                <p>{{protocolo}}</p>
+            </div>
+            <div>
+                <p>{{formatDate this.data}}</p>
+            </div>
+        </div>
+        <div class="denuncias-card-botoes">
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Ações
+                </button>
+                <ul class="dropdown-menu">
+                    <div class="dropdown-item">
+                        <form action="/agente/desatribuir/{{_id}}" method="POST" style="display:inline;">
+                            <button type="submit" class="btn btn-warning">Desatribuir <i
+                                    class="bi bi-dash"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="dropdown-item"><a href="/agente/editarDenuncia/{{_id}}" class="btn btn-secondary">Editar
+                            <i class="bi bi-pencil"></i></a>
+                    </div>
+
+                    <div class="dropdown-item"><a href="/agente/visualizar/{{_id}}" class="btn btn-dark">Visualizar <i
+                                class="bi bi-eye"></i></a>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    {{/each}}
+    {{else}}
+    <p>Nenhuma denúncia atribuída encontrada.</p>
+    {{/if}}
+</div>

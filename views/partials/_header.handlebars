@@ -1,0 +1,31 @@
+<header class="cabecalho navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="cabecalho-logo" href="/"><img src="/img/logo-home.png" alt="" class="cabecalho-logo"></a>
+        <div class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="cabecalho-botao-icone bi bi-list"></i>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarTogglerDemo02"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <i data-bs-dismiss="offcanvas" aria-label="Close" class="botao-fechar-navbar bi bi-x-lg"></i>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="cabecalho-nav navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <a class="nav-link load-page" href="/denuncia/registrar" aria-current="page">Cadastrar</a>
+                    <a class="nav-link" href="/denuncia/consultar" aria-current="page">Consultar</a>
+                    {{#if isAuthenticated}}
+                    <a class="nav-link" href="/agente/novasDenuncias" aria-current="page">Denúncias</a>
+                    <a class="nav-link" href="/agente/denunciasAtribuidas" aria-current="page">Denúncias Atribuidas</a>
+                    {{#if user.admin}}
+                            <a class="nav-link" href="/agente/usuarios" aria-current="page">Usuários</a>
+                    {{/if}}
+                    <a class="nav-link" href="/agente/logout" aria-current="page">Sair</a>
+                    {{else}}
+                    <a class="nav-link" href="/agente/login" aria-current="page">Entrar</a>
+                    {{/if}}
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

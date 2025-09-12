@@ -46,8 +46,6 @@ git clone https://github.com/Yarley04/sistema-denuncias-ambientais.git
 
 cd repositorio
 
-npm start
-
 ### 2. Instalar dependências
 npm install
 

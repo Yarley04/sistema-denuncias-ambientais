@@ -1,6 +1,7 @@
 # Sistema de Denúncias de Crimes Ambientais
 
-[Logo](./logo.png) 
+<img width="1920" height="1789" alt="FireShot Capture 001 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/71476cde-c801-4b0b-9bf3-e21b56ad9636" />
+
 
 ---
 

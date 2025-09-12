@@ -81,9 +81,12 @@ Sistema gera um **número de protocolo** e define o **status inicial: pendente**
 
 ### 📸 Prints
 
-- Tela de cadastro  
-- Tela de acompanhamento  
-- Painel do agente
+## Tela de nicio
+<img width="1920" height="911" alt="FireShot Capture 002 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/cd42be04-d6af-4e84-a990-a1c7c70b4641" />
+
+## Tela de cadastro  
+<img width="1920" height="1319" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/64ce5e51-bc8c-4ea6-aa2c-b3b036b8c03e" />
+
 
 ## Arquitetura / Organização do Projeto
 

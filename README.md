@@ -1,4 +1,3 @@
-# TITULO:
 # Sistema de Denúncias de Crimes Ambientais
 
 [Logo](./logo.png) 
@@ -43,6 +42,7 @@ Ele busca resolver a **falta de monitoramento e canais eficientes** para denúnc
 
 ### 1. Clonar repositório
 git clone https://github.com/Yarley04/sistema-denuncias-ambientais.git
+
 cd repositorio
 
 npm start
@@ -86,10 +86,10 @@ Sistema gera um **número de protocolo** e define o **status inicial: pendente**
 
 ## Arquitetura / Organização do Projeto
 
-  /middlewares -> Regras de negócio
-  /models      -> Modelos de dados (MongoDB)
-  /routes      -> Definição das rotas
-  /views       -> Interfaces (Handlebars + Bootstrap)
-  /public      -> Arquivos estáticos (CSS, JS, imagens)
-  app.js       -> Arquivo com o servidor nodejs
-  .env        -> Configuração do banco de dados
+/middlewares -> Regras de negócio  
+/models      -> Modelos de dados (MongoDB)  
+/routes      -> Definição das rotas  
+/views       -> Interfaces (Handlebars + Bootstrap)  
+/public      -> Arquivos estáticos (CSS, JS, imagens)  
+app.js       -> Arquivo com o servidor Node.js  
+.env         -> Configuração do banco de dados  

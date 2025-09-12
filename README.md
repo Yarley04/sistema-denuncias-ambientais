@@ -42,7 +42,7 @@ Ele busca resolver a **falta de monitoramento e canais eficientes** para denúnc
 ## ⚙️ Instalação e Execução
 
 ### 1. Clonar repositório
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/Yarley04/sistema-denuncias-ambientais.git
 cd repositorio
 
 npm start

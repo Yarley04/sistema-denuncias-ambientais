@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../app"); // sua app Express
+const app = require("../app");
 
 describe("Teste de rota raiz", () => {
   it("Deve responder na rota /", async () => {

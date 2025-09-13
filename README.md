@@ -113,7 +113,7 @@ O número de registro da denúncia é enviado pora o e-mail do denunciante
 ### Acompanhe o Status da Denúncia:
 Para verificar o andamento da sua denúncia, No menu principal, você verá uma opção chamada “Consultar”. Insira o número de protocolo para visualizar o status atual (como "em análise", "em investigação", "resolvida", entre outros).
 
-<img width="1920" height="1644" alt="FireShot Capture 002 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/05db58ea-6249-4f60-afcf-af1d44bfec47" />
+<img width="1920" height="1643" alt="print233" src="https://github.com/user-attachments/assets/e1da6249-b6b2-477b-adc0-9358d67c1b1a" />
 
 ## Tela após a consulta da denúncia
 <img width="1920" height="2022" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/516902a4-7547-4f52-88b6-29fe76a78ea6" />

@@ -35,7 +35,7 @@ Ele busca resolver a **falta de monitoramento e canais eficientes** para denúnc
 - **Prototipação:** Figma  
 - **Controle de Versão:** Git + GitHub  
 - **Gestão de Tarefas:** Trello  
-- **Testes:** Jest, GitHub Actions, Testes manuais (Chrome, Firefox, Edge)  
+- **Testes:** GitHub Actions, Testes manuais (Chrome, Firefox, Edge)  
 
 ---
 

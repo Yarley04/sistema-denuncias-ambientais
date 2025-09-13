@@ -81,9 +81,21 @@ Sistema gera um **número de protocolo** e define o **status inicial: pendente**
 ### 📸 Prints
 
 ## Tela de inicio
+### Acesse o Formulario de Cadastro para realisar a denúncia:
+No menu principal, você verá uma opção chamada “Cadastrar”. Clique nela para iniciar o processo.
+
 <img width="1920" height="911" alt="FireShot Capture 002 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/cd42be04-d6af-4e84-a990-a1c7c70b4641" />
 
 ## Tela de cadastro  
+### Preencha o Formulário de Denúncia:
+Na tela de cadastro, você precisará fornecer algumas informações importantes sobre o crime ambiental que deseja denunciar. Os campos obrigatórios incluem:
+
+- Título: Resumo breve do crime (ex.: "Desmatamento em Área de Preservação").
+- Descrição: Explique detalhadamente o que você presenciou. Inclua informações como o local, data e possíveis envolvidos.
+- Localização: Indique onde ocorreu o crime (endereço, cidade, ou coordenadas, se possível).
+- Data: Quando o crime ocorreu ou foi notado.
+- Evidências (opcional): Caso tenha fotos, você pode anexá-los para ajudar na investigação.
+  
 <img width="1920" height="1319" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/64ce5e51-bc8c-4ea6-aa2c-b3b036b8c03e" />
 
 ## Tela de após a denúncia ser cadastrada

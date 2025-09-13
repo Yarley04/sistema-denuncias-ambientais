@@ -120,15 +120,16 @@ A tela de consulta mostrará o status atual da denúncia.
 
 <img width="1920" height="2022" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/516902a4-7547-4f52-88b6-29fe76a78ea6" />
 
+## Arquitetura / Organização do Projeto
 
-/middlewares      → Middlewares e regras de negócio (validações, autenticação, etc.)
-/models           → Modelos de dados (MongoDB / Mongoose)
-/routes           → Definição das rotas da aplicação
-/views            → Interfaces do usuário (Handlebars + Bootstrap)
-/public           → Arquivos estáticos (CSS, JS, imagens)
-/tests            → Testes automatizados (Jest + Supertest)
-app.js            → Configuração do Express e middlewares
-server.js         → Inicialização do servidor Node.js
-.env              → Variáveis de ambiente (MongoDB URI, JWT_SECRET, credenciais de email)
-.github/workflows/tests.yml → Workflow do GitHub Actions para rodar testes automaticamente em cada push/pull request
-package.json      → Dependências, scripts e configuração do projeto
+- /middlewares      → Middlewares e regras de negócio (validações, autenticação, etc.)
+- /models           → Modelos de dados (MongoDB / Mongoose)
+- /routes           → Definição das rotas da aplicação
+- /views            → Interfaces do usuário (Handlebars + Bootstrap)
+- /public           → Arquivos estáticos (CSS, JS, imagens)
+- /tests            → Testes automatizados (Jest + Supertest)
+- app.js            → Configuração do Express e middlewares
+- server.js         → Inicialização do servidor Node.js
+- .env              → Variáveis de ambiente (MongoDB URI, JWT_SECRET, credenciais de email)
+- .github/workflows/tests.yml → Workflow do GitHub Actions para rodar testes automaticamente em cada push/pull request
+- package.json      → Dependências, scripts e configuração do projeto

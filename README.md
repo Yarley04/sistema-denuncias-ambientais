@@ -72,6 +72,7 @@ node app.js ou npm start
 
 **Entrada:**  
 Usuário informa **Titulo** + **descrição** + **local do crime** + **Data do ocorrido** + **Imagens**
+
 **Saída:**  
 Sistema gera um **número de protocolo** e define o **status inicial: pendente**.  Usuario recebe por e-mail o número de de protocolo.
 
@@ -79,11 +80,23 @@ Sistema gera um **número de protocolo** e define o **status inicial: pendente**
 
 ### 📸 Prints
 
-## Tela de nicio
+## Tela de inicio
 <img width="1920" height="911" alt="FireShot Capture 002 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/cd42be04-d6af-4e84-a990-a1c7c70b4641" />
 
 ## Tela de cadastro  
 <img width="1920" height="1319" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/64ce5e51-bc8c-4ea6-aa2c-b3b036b8c03e" />
+
+## Tela de após a denúncia ser cadastrada
+<img width="1920" height="919" alt="FireShot Capture 001 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/b3763257-09d4-4cd8-a90b-126f7a1d7611" />
+
+## Tela de recebimento de notificação por e-mail
+<img width="1504" height="346" alt="Captura de tela 2025-09-13 100042" src="https://github.com/user-attachments/assets/da0f3ff9-5171-40bc-a348-1d031a96dff2" />
+
+## Tela de consulta de denúncias
+<img width="1920" height="1644" alt="FireShot Capture 002 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/05db58ea-6249-4f60-afcf-af1d44bfec47" />
+
+## Tela após a consulta da denúncia
+<img width="1920" height="2022" alt="FireShot Capture 003 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/516902a4-7547-4f52-88b6-29fe76a78ea6" />
 
 
 ## Arquitetura / Organização do Projeto

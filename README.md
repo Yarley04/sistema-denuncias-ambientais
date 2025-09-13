@@ -1,4 +1,4 @@
-# Sistema de Denúncias de Crimes Ambientais
+# Sistema de Denúncias Ambientais
 
 <img width="1920" height="1789" alt="FireShot Capture 001 - Sistema de Denuncias -  localhost" src="https://github.com/user-attachments/assets/71476cde-c801-4b0b-9bf3-e21b56ad9636" />
 
@@ -7,7 +7,7 @@
 
 ## 📌 Descrição
 
-O **Sistema de Denúncias de Crimes Ambientais** é uma plataforma digital que permite que cidadãos registrem denúncias de forma simples, rápida e anônima.  
+O **Sistema de Denúncias Ambientais** é uma plataforma digital que permite que cidadãos registrem denúncias de forma simples, rápida e anônima.  
 Ele busca resolver a **falta de monitoramento e canais eficientes** para denúncias ambientais, agilizando a comunicação entre população e órgãos de fiscalização.  
 
 ✅ Problema resolvido: dificuldade de identificar e responsabilizar infratores ambientais devido à ineficiência no processo de denúncia e apuração.

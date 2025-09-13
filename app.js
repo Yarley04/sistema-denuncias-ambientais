@@ -72,7 +72,7 @@ app.use((req, res, next) => {
 
 
 
-// Conectar ao MongoDB
+// Conectar ao MongoDB **apenas fora dos testes**
 if (process.env.NODE_ENV !== "test") {
   mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log("MongoDB conectado"))
